@@ -1,50 +1,41 @@
-const space = " ";
-const nrwness = "";
 
-function calculate (data){
-    let dataArr = data.split(space);
-    let Arr1 = dataArr[0];
-    let Arr2 = dataArr[2];
+
+function calculate (number){
+    const alphabetic = 'abcdefghijklmnopqrstuvwxyz';
     
-    if (dataArr[1] == "+") {
-        dataArr.splice(1,1);
-        let result = dataArr.join(nrwness);
-        return result;
-    } else if (dataArr[1] == "-") {
-        if (Arr1.length < Arr2.length) {
-            error();
-            return 0;
-        }
-        let result = [];
-        let num = Arr1.length - Arr2.length;
-        for (i=0; i<num; i++){
-            result.push(".");
-        }
-        return result.join(nrwness);
-    } else if (dataArr[1] == "//" || '/') {
-        if (Arr1.length < Arr2.length) {
-            error();
-            return 0;
-        }
-        let result = [];
-        let num = Math.floor(Arr1.length / Arr2.length);
-        for (i=0; i<num; i++){
-            result.push(".");
-        }
-        return result.join(nrwness);
-    } else if (dataArr[1] == "*") {
-        let result = [];
-        let num = Arr1.length * Arr2.length;
-        for (i=0; i<num; i++){
-            result.push(".");
-        }
-        return result.join(nrwness);
+    if (number<0){
+        error ();
+        return null;
+    } else if (number == 0){
+        console.log('Our array is empty =( ');
+        return null;
     }
     
+    let arr=[];
+    arr.length = number;
+    for(i=0; i<number; i++){
+        arr[i] = alphabetic.split('').splice(i,number);
+        arr[i] = rec(arr[i],number,alphabetic)
+    }
+    return arr;
 }  
 
-function error () {
-    console.log ("First value is so small for this operation");
+function rec(el,number, arr){
+
+    if(el.length==number){
+        return el;
+    } else {
+        let sub =number -el.length;
+        let deficient = arr.split('').splice(0,sub);
+        let newArr =el.concat(deficient);
+        el=newArr;
+        return rec(el,number,arr);
+    }
+    
 }
-console.log(calculate("..... / .."));
+
+function error () {
+    console.log ("Error! Type a number greater than 0 and try again.");
+}
+console.log(calculate(15));
 
