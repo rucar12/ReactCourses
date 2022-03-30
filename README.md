@@ -1,2 +1,2 @@
 # ReactCourses
-<h1>General page</h1>
+<h2>General page</h2>
