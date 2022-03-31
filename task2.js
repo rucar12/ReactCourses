@@ -1,5 +1,3 @@
-
-
 function calculate (number){
     const alphabetic = 'abcdefghijklmnopqrstuvwxyz';
     
@@ -15,9 +13,12 @@ function calculate (number){
     arr.length = number;
     for(i=0; i<number; i++){
         arr[i] = alphabetic.split('').splice(i,number);
-        arr[i] = rec(arr[i],number,alphabetic)
+        arr[i] = rec(arr[i],number,alphabetic).join(' ');
     }
-    return arr;
+    for (i=0; i<number; i++){
+        arr[i] =arr[i]+"\n";
+    }
+    return arr.join('');
 }  
 
 function rec(el,number, arr){
@@ -38,4 +39,3 @@ function error () {
     console.log ("Error! Type a number greater than 0 and try again.");
 }
 console.log(calculate(15));
-
