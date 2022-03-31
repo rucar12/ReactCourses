@@ -1,5 +1,6 @@
+// я навмисно не робив подвійним циклом(знаю, що то погано)
 function calculate (number){
-    const alphabetic = 'abcdefghijklmnopqrstuvwxyz';
+    let alphabetic = 'abcdefghijklmnopqrstuvwxyz';
     
     if (number<0){
         error ();
@@ -12,6 +13,9 @@ function calculate (number){
     let arr=[];
     arr.length = number;
     for(i=0; i<number; i++){
+        if (i%26==0){
+            alphabetic=alphabetic+alphabetic;
+        }
         arr[i] = alphabetic.split('').splice(i,number);
         arr[i] = rec(arr[i],number,alphabetic).join(' ');
     }
@@ -38,4 +42,4 @@ function rec(el,number, arr){
 function error () {
     console.log ("Error! Type a number greater than 0 and try again.");
 }
-console.log(calculate(15));
+console.log(calculate(30));
