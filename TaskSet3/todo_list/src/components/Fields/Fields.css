@@ -1,0 +1,68 @@
+.fields{
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20%;
+    padding-bottom: 20px;
+}
+
+.fields-input-names{
+    border-bottom: 1px gray solid;
+    border-right: none;
+    color: white;
+    text-decoration: none;
+    height: 30px;
+}
+.fields-input-description{
+    padding-top: 15px;
+    border: none;
+    border-bottom: 1px gray solid;
+    border-top: 1px gray solid;
+    color: white;
+    text-decoration: none;
+    height: 70px;
+}
+
+.fields-col1{
+    width: 25%;
+}
+.fields-col2{
+    width: 35%;
+    text-align: center;
+}
+.fields-col3{
+    width: 25%;
+    text-align: right;
+}
+
+.button-addNew{
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    min-width: 110px;
+    min-height: 30px;
+}
+
+.button-addNew:hover{
+    background-color: #165818;
+    transition: 0.3s;
+}
+ .button-deleteAll{
+     color: white;
+     opacity: 0.8;
+     cursor: pointer;
+     border-radius: 5px;
+     padding: 5px;
+     min-width: 110px;
+     min-height: 30px;
+ }
+.button-deleteAll:hover{
+    background-color: #b82d0b;
+    transition: 0.3s;
+}
+
