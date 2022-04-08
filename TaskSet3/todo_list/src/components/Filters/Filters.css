@@ -1,0 +1,21 @@
+.filter-buttons{
+    display: flex;
+    width: 60vw;
+    height: 10px;
+    margin: auto;
+    align-items:end;
+    color: gray;
+    padding-bottom: 4px;
+}
+
+.filter-buttons-item{
+    color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+.filter-buttons-item:hover, :focus{
+    color: white;
+    border: none;
+    cursor: pointer;
+}

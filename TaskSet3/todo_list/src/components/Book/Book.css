@@ -1,0 +1,76 @@
+
+.book{
+  width: 60vw;
+  border: none;
+  text-align: center;
+  margin: auto;
+  overflow: inherit;
+}
+
+.book-item{
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-bottom: gray 1px solid;
+}
+.book-item:hover{
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.book-item-wrote{
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  color: #474444;
+  border-bottom: gray 1px solid;
+}
+.book-item-wrote:hover{
+  color: #595656;
+  transition: 0.3s;
+}
+
+.book-item-info{
+  width: 20%;
+  padding-top: 10px;
+}
+
+.book-wrote{
+  color: #069e39;
+}
+
+.check_mark{
+  font-size: 30px;
+  color: gray;
+  opacity: 0.4;
+  width: 10%;
+  cursor: pointer;
+}
+.check_mark-active{
+  font-size: 30px;
+  color: #1ab622;
+  opacity: 0.4;
+  width: 10%;
+  cursor: pointer;
+}
+
+.book-item-description{
+  width: 70%;
+  text-align: right;
+}
+
+.button{
+
+  width: 10%;
+  height: 10vh;
+  border: none;
+  cursor: pointer;
+}
+
+.delete{
+  color: red;
+  font-size: 25px;
+  z-index: 1;
+}
+
