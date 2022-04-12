@@ -1,0 +1,23 @@
+.content_box{
+    width: 100vw;
+    height: 85vh;
+    overflow: auto;
+}
+
+.login_form{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.login_item{
+    padding-bottom: 1vh;
+    text-align: center;
+    width: 16vw;
+
+}
+
+.ant-input-suffix{
+    display: none;
+}
+

@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.container{
+
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.content_box{
+    width: 80vw;
+    height: 85vh;
+    overflow: auto;
+    margin: auto;
+}
