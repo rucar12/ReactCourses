@@ -1,0 +1,18 @@
+
+
+.post_title{
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    font-size: 30px;
+}
+
+.post_content{
+    font-size: 15px;
+}
+
+.backpage{
+    padding-top: 2vh;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    box-shadow: 0px 2px 10px 0px black;
+    gap: 15px;
+
+}
+
+.header-page{
+    text-decoration: none;
+    color: black;
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+}
+
+.active{
+    color: green;
+}
+
+.logout{
+    position: absolute;
+    right: 3vw;
+    top: 3vh;
+    font-size: 30px;
+    color: black;
+}
+
+.footer{
+
+    align-items: center;
+    height: 5vh;
+    width: 100vw;
+    box-shadow: 0px 2px 7px 0px black;
+    gap: 15px;
+    text-align: center;
+
+}
+
+.footer-item{
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    font-family: "Trebuchet MS";
+    font-size: 13px;
+}
+
+.contact_links{
+    text-decoration: none;
+    color: gray;
+    padding-left: 7px;
+}
+
+.contact_links:focus, .contact_links:hover{
+    color: black;
+
+}
