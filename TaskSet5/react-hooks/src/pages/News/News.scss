@@ -1,0 +1,12 @@
+.news{
+  width: 80vw;
+  height: 88vh;
+
+  &-table{
+    overflow: auto;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+  }
+}

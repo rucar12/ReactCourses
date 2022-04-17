@@ -1,0 +1,82 @@
+
+.header{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px grey solid;
+  &-box{
+    &-menu{
+      width: 15vw;
+      font-size: 2em;
+      padding-left: 5vw;
+      color: black;
+      cursor: pointer;
+      &:hover{
+        color: red;
+        transition: 0.2s;
+      }
+    }
+    &-company{
+      width: 60vw;
+      font-size:2.3em ;
+      font-family: "Cooper Black";
+
+    }
+    &-user{
+      width: 20vw;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      &-loggout{
+        padding-right: 2vw;
+        &-icon{
+          text-decoration: none;
+          color: black;
+          font-size: 2em;
+          transition: 0.2s;
+          &:hover{
+            transition: 0.2s;
+            color: red;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.content{
+  display: flex;
+  &-box{
+    height: 89.8vh;
+    overflow: auto;
+  }
+}
+
+.menu{
+  width: 20vw;
+  height: 88vh;
+  border-right: 1px grey solid;
+  background-color: rgba(22,22,22,0.1);
+  &-item{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin:2vh;
+    font-size: 1.5em;
+    border-bottom: darkgray 1px solid;
+    transition: 0.2s;
+    &:hover{
+      opacity: 0.5;
+      transition: 0.2s;
+    }
+    &.active{
+      color: red;
+    }
+  }
+
+}
