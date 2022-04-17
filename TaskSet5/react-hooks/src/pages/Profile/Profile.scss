@@ -1,0 +1,47 @@
+.profile{
+  display: flex;
+  overflow: hidden;
+  &-category{
+    width: 15vw;
+    border-right: darkgray 1px solid;
+    height: 88vh;
+    background-color: rgba(20,20,20,0.03);
+
+    &-item{
+      text-align: center;
+      align-items: center;
+      cursor: pointer;
+      border-bottom: darkgray 1px solid;
+      height: 3vh;
+      margin: 1vh;
+    }
+  }
+  &-setting{
+    width: 65vw;
+    height: 90vh;
+    text-align: center;
+    &-data{
+      height: 90vh;
+      padding-top: 10vh;
+      &-item{
+        padding: 1vh;
+        &-input{
+          border: none;
+          border-bottom: 1px darkgray solid;
+        }
+        &-btn{
+          border-radius: 15px;
+          width: 8vw;
+          height: 4vh;
+          transition: 0.2s;
+          &:hover{
+            color: white;
+            background-color: green;
+            border: white;
+            transition: 0.2s;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.login{
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  &-form{
+    position: absolute;
+    width: 25vw;
+    height: 25vh;
+    top: 30vh;
+    left: 40vw;
+    &-name{
+      &-input{
+        position: absolute;
+        left: 6vw;
+        border: none;
+        border-bottom: 1px darkgray solid;
+      }
+    }
+    &-surname{
+      position: absolute;
+      top: 5vh;
+      &-title{
+       padding-right: 0.2vw;
+      }
+      &-input{
+        border: none;
+        border-bottom: 1px darkgray solid;
+      }
+    }
+    &-submit{
+      position: absolute;
+      top: 10vh;
+      left: 8vw;
+      border: 1px darkgray solid;
+      border-radius: 15px;
+      height: 4vh;
+      width: 5vw;
+      cursor: pointer;
+      transition: 0.2s;
+      &:hover{
+        transition: 0.2s;
+        background-color: green;
+        color: white;
+        border: white;
+      }
+    }
+  }
+}
