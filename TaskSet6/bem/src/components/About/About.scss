@@ -1,0 +1,153 @@
+.container{
+    width: 66.46vw;
+    margin: auto;
+}
+
+.about{
+  padding-top: 4.2vh;
+  width: 99vw;
+  &__description{
+    text-align: center;
+    padding-bottom: 13.9vh;
+   }
+  &__title{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #000000;
+  }
+  &__text{
+    width: 45.3vw;
+    margin: auto;
+    padding-top: 3.3vh;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: 0.1em;
+    color: #000000;
+  }
+  &__card{
+    height: 51vh;
+    display: table;
+    &-img1{
+      margin-right: -100%;
+      background: url(../../img/1.png) no-repeat;
+      background-size: 100%;
+      height: 36.2vh;
+      width: 32.7vw;
+      position: relative;
+      z-index: 1;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      float: left;
+    }
+    &-img2{
+      margin-left: -100%;
+      background: url(../../img/2.png) no-repeat;
+      background-size: 100%;
+      height: 36.2vh;
+      width: 32.7vw;
+      position: relative;
+      z-index: 1;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      float: right;
+    }
+    &-img3{
+      margin-right: -100%;
+      background: url(../../img/3.png) no-repeat;
+      background-size: 100%;
+      height: 36.2vh;
+      width: 32.7vw;
+      position: relative;
+      z-index: 1;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      float: left;
+    }
+    &-img4{
+      margin-left: -100%;
+      background: url(../../img/4.png) no-repeat;
+      background-size: 100%;
+      height: 36.2vh;
+      width: 32.7vw;
+      position: relative;
+      z-index: 1;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      float: right;
+    }
+    &-description{
+      padding-bottom: 4vh;
+      float: right;
+      margin-top: 5.75vh;
+      height: 32.7vh;
+      width: 37.5vw;
+      background: #6279FF;
+      z-index: 0;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      &--reverse{
+        margin-top: 5.75vh;
+        float: left;
+        height: 32.7vh;
+        width: 37.5vw;
+        background: #6279FF;
+        padding-bottom: 4vh;
+      }
+    }
+    &-name{
+      width: 30vw;
+      text-align: center;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      line-height: 170%;
+      letter-spacing: 0.1em;
+      color: #504A4A;
+      padding-top: 43vh;
+    }
+    &-title{
+      padding-top: 6.3vh;
+      padding-left: 10vh;
+      padding-right: 2.8vw;
+      font-family: 'PT Serif';
+      font-style: normal;
+      font-weight: 700;
+      line-height: 170%;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+      &--reverse{
+        padding-top: 6.3vh;
+        padding-right: 10vh;
+        padding-left: 2.8vw;
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 170%;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+      }
+    }
+    &-text{
+      padding-top: 1.5vh;
+      padding-left: 10vh;
+      padding-right: 2.8vw;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      line-height: 170%;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+      &--reverse{
+        padding-top: 1.5vh;
+        padding-right: 10vh;
+        padding-left: 2.8vw;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

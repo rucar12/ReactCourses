@@ -1,0 +1,165 @@
+.footer{
+  width: 99vw;
+  display: table;
+  &__menu{
+    margin: auto;
+    width: 55.2vw;
+    height: 8.9vh;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -2.5%;
+    &-items{
+      margin: auto;
+      padding-top: 3.5vh;
+      width: 36.5vw;
+      text-align: center;
+    }
+    &-item{
+      text-decoration: none;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2.5vh;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #0063B2;
+      padding-right: 2vw;
+      padding-left: 2vw;
+    }
+  }
+  &__feedback{
+    display: flex;
+  }
+  &__contact{
+    background:
+            linear-gradient(to top, rgba(0, 99, 178, 0.88), rgba(0, 99, 178, 0.88)),
+            url(../../img/photo-1557804506-669a67965ba02.png) ;
+    height: 66vh;
+    width: 49.5vw;
+    background-size: 100%;
+    &-items{
+      width: 22vw;
+      padding-top: 20vh;
+      padding-left: 2vw;
+      margin: auto;
+    }
+    &-item{
+      display: flex;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.8vh;
+      line-height: 30px;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+      padding-top: 1vh;
+      padding-bottom: 2vh;
+    }
+    &-icons{
+      width: 5vw;
+      height: 7vh;
+    }
+    &-icon{
+      width: 4vw;
+      height: 6vh;
+
+    }
+    &-text{
+      padding-top: 1vh;
+      padding-left: 2vw;
+      height: 4vh;
+      font-family: 'Lato';
+      font-style: normal;
+      font-size: 2vh;
+      font-weight: 700;
+      line-height: 2vh;
+      letter-spacing: 0.1em;
+    }
+  }
+  &__form{
+    height: 66vh;
+    width: 49.5vw;
+    background: #EEEEEE;
+    &-title{
+      padding-top: 11vh;
+      text-align: center;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2.7vh;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #393939;
+      padding-bottom: 3vh;
+    }
+    &-inputs{
+      text-align: center;
+    }
+    &-input{
+      margin-bottom: 2vh;
+      padding-left: 1vw;
+      border: none;
+      &.input-company{
+        width: 28.5vw;
+        height: 5.5vh;
+      }
+      &.input-description{
+        width: 28.5vw;
+        height: 16.5vh;
+        padding-top: 2vh;
+        resize: none;
+      }
+      &.input-mail{
+        width: 13vw;
+        height: 5.5vh;
+        margin-right: 1.5vw;
+      }
+      &.input-phone{
+        width: 13vw;
+        height: 5.5vh;
+      }
+    }
+    &-submit{
+      width: 10.3vw;
+      height: 4.35vh;
+      border: none;
+      background: linear-gradient(135deg, #0063B2 45%, #2F7EBD);
+      cursor: pointer;
+
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.5vh;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      &:hover{
+        background: linear-gradient(45deg,  #2F7EBD ,#0063B2 45%);
+      }
+    }
+  }
+}
+
+.copyright{
+  background: #14202D;
+  width: 99vw;
+  height: 5.75vh;
+  text-align: center;
+  margin: 0;
+  &__text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5vh;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    padding-top: 2vh;
+  }
+}

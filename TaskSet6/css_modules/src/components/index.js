@@ -1,0 +1,6 @@
+export {default as Header} from "./Header"
+export {default as Main} from "./Main"
+export {default as Form} from "./Form"
+export {default as Contacts} from "./Contacts"
+export {default as Footer} from "./Footer"
+export {default as Body} from "./Body"

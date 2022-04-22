@@ -1,0 +1,75 @@
+.main{
+  height: 44vh;
+  width: 100vw;
+  background: url(../../img/bg1.png) no-repeat;
+  background-size: 100%;
+  &__container{
+    padding-left: 20.8vw;
+    padding-top: 12vh;
+
+  }
+  &__title{
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vh;
+    line-height: 2vh;
+    color: #000000;
+    &::before{
+      content: "";
+      display: block;
+      width: 4.5vw;
+      height: 0.3vh;
+      background:  #2B66FA;
+      margin-top: 0.8vh;
+      margin-right: 1vw;
+    }
+  }
+  &__ask{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.5vh;
+    line-height: 5.6vh;
+    color: #2B66FA;
+    &::after{
+      content: " ?";
+      color: #000000;
+    }
+    &::before{
+      content: "Do you need ";
+      color: #000000;
+    }
+  }
+  &__adv{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vh;
+    line-height: 2vh;
+    color: #000000;
+    padding-bottom: 2vh;
+  }
+  &__btn{
+    width: 11.8vw;
+    height: 4vh;
+    border-radius: 15px;
+    background: #FFFFFF;
+    cursor: pointer;
+    transition: 0.2s;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vh;
+    line-height: 2vh;
+    text-align: center;
+    color: #000000;
+    &:hover{
+      border-color: #2B66FA;
+      transition: 0.2s;
+      color: #2B66FA;
+    }
+  }
+}
