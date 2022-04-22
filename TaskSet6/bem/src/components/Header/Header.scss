@@ -1,0 +1,65 @@
+.header{
+
+  &__navigate{
+    width: 99vw;
+    height: 8.3vh;
+    display: flex;
+  }
+  &__logo{
+    background: #0063B2;
+    height: 8.3vh;
+    width: 10vw;
+    align-items: center;
+    text-align: center;
+    &-text{
+      color: white;
+      padding-top: 1.3em;
+    }
+  }
+  &__menu{
+    width: 85vw;
+    height: 8.3vh;
+    text-align: right;
+    border-right: #C7C7C7 1px solid;
+    background: #F2F1F0;
+    &-items{
+      padding-top: 1.3em;
+    }
+    &-item{
+      text-decoration: none;
+      color: #0063B2;
+      padding-top: 1.3em;
+      padding-left: 3vw;
+      padding-right: 1.5vw;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+    }
+    &-lang{
+      text-align: center;
+      width: 5vw;
+      height: 8.3vh;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      text-transform: uppercase;
+      background: #F2F1F0;
+      &-box{
+        padding-top: 1.3em;
+      }
+      &-text{
+        color: #8D8D8D;
+        border: none;
+        background: #F2F1F0;
+      }
+    }
+  }
+  &__img{
+    background-image:
+            linear-gradient(to top, rgba(0, 99, 178, 0.29), rgba(0, 99, 178, 0.29)),
+            url(../../img/tipss-886x5201.png);
+    width: 99vw;
+    height: 36.8vh;
+  }
+}

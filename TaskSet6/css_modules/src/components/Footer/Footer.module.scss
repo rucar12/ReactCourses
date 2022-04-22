@@ -1,0 +1,234 @@
+.footer{
+  width: 100vw;
+  background: #1D2647;
+  &__logo{
+    padding-top: 5vh;
+    text-align: center;
+    padding-bottom: 3vh;
+  }
+  &__title{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5vh;
+    line-height: 2vh;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    &::before{
+      content: "the best ";
+      font-weight:700 ;
+    }
+
+  }
+  &__nav{
+    display: flex;
+    justify-content: center;
+    width: 18vw;
+    margin: auto;
+    gap: 1.5vw;
+    padding-bottom: 4vh;
+    &_item{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.4vh;
+      line-height: 1.7vh;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+    }
+  }
+  &__about{
+    width: 58vw;
+    margin: auto;
+    display: flex;
+  }
+  &__contacts{
+    width: 28vw;
+    padding-right: 2vw;
+    &_title{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.6vh;
+      line-height: 2vh;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+      padding-bottom: 2vh;
+    }
+    &_item{
+      padding-bottom: 2vh;
+      display: flex;
+
+    }
+    &_icon{
+      width: 1vw;
+      height: 2vh;
+      padding-right: 1vw;
+    }
+    &_text{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.4vh;
+      line-height: 1.7vh;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+    }
+  }
+  &__reating{
+    display: flex;
+    &_text{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.4vh;
+      line-height: 1.7vh;
+      color: #FFFFFF;
+      padding-right: 1vw;
+      padding-top: 0.5vh;
+    }
+    &_icon{
+
+    }
+    &_votes{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.2vh;
+      line-height: 1.5vh;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      padding-left: 1vw;
+      padding-top: 0.5vh;
+    }
+  }
+  &__type{
+    width: 12vw;
+    &_title{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.6vh;
+      line-height: 2.0vh;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+      padding-bottom: 2vh;
+    }
+    &_item{
+    }
+    &_text{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.4vh;
+      line-height: 180%;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+    }
+  }
+  &__follow_us{
+    width: 20vw;
+    &_title{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.6vh;
+      line-height: 2.0vh;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+      padding-bottom: 2vh;
+    }
+    &_items{
+      display: flex;
+    }
+    &_item{
+      display: flex;
+      width: 6vw;
+      padding-bottom: 3.5vh;
+      padding-right: 5vh;
+    }
+    &_icon{
+      width: 2.3vh;
+      height: 2.3vh;
+      padding-right: 1vw;
+    }
+    &_text{
+      padding-top: 0.4vh;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.4vh;
+      line-height: 1.7vh;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+    }
+  }
+  &__subscribe{
+    &_text{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4vh;
+      line-height: 1.7vh;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+      padding-bottom: 1vh;
+      &::after{
+        content: "?";
+        border: 1px #FFFFFF solid;
+        background: #FFFFFF;
+        color: #1D2647;
+        border-radius: 25px;
+        padding-right: 0.15vw;
+        padding-left: 0.15vw;
+      }
+    }
+    &_input{
+      padding-left: 1.6vh;
+      height: 3vh;
+      width: 11vw;
+      background: #FFFFFF;
+      border-radius: 5px 0px 0px 5px;
+    }
+    &_submit{
+      background: linear-gradient(90deg, #0052D4 0%, #4364F7 50%, #6FB1FC 100%);
+      border-radius: 0px 5px 5px 0px;
+      height: 4vh;
+      border-color:#1D2647 ;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+  &__copyright{
+    width: 45vw;
+    text-align: center;
+    margin: auto;
+    padding-top: 5vh;
+    &_text{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.3vh;
+      line-height: 1.2vh;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+    }
+  }
+
+}
+
+.line{
+  content: "";
+  display: block;
+  background: #FFFFFF;
+  height: 1px;
+  width: 58vw;
+  margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  text-align: center;
+}

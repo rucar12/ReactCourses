@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+textarea{
+  resize: none;
+}
+
+.app{
+  &__arrow{
+    position: fixed;
+    bottom: 4vh;
+    left: 1vw;
+    cursor: pointer;
+  }
+}

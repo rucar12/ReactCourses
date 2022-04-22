@@ -1,0 +1,78 @@
+.contacts{
+  width: 60vw;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 12vh;
+  &__general{
+    display: flex;
+    text-align: center;
+    margin-bottom: 4.5vh;
+    &_item{
+      width: 19vw;
+      padding-left: 0.5vw;
+      padding-right: 0.5vw;
+      text-align: center;
+      &_box{
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  &__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vh;
+    line-height: 2.5vh;
+    color: #000000;
+    padding-bottom: 2vh;
+  }
+  &__icon{
+    width: 1.5vw;
+    height: 1.5vw;
+    padding-right: 1vw;
+    padding-top: 0.3vh;
+  }
+  &__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vh;
+    line-height: 170%;
+    text-align: center;
+    color: #818181;
+
+  }
+  &__online{
+
+    &_title{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 2.5vh;
+      line-height: 3vh;
+      color: #000000;
+      padding-bottom: 3vh;
+    }
+    &_items{
+      display: flex;
+      justify-content: center;
+      gap: 5vw;
+    }
+    &_item{
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.line{
+  content: "";
+  display: block;
+  text-align: center;
+  width: 5.5vw;
+  height: 1px;
+  background: #008DFE;
+  margin: auto;
+  margin-bottom: 4.5vh;
+}
