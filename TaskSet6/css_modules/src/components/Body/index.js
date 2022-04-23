@@ -1,6 +1,6 @@
 import {Contacts, Form} from "../index";
 
-import styles from "./Body.scss"
+import styles from "./Body.module.scss"
 
 const Body = () => {
   return(
