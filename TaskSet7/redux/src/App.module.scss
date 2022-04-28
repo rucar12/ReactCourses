@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+}
+
+
+.app{
+  min-height: 100vh;
+  &__title{
+
+    padding: 5vh 0;
+    text-align: center;
+
+  }
+}
