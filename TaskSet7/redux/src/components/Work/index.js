@@ -27,7 +27,7 @@ const Work = ({work}) => {
     }
 
     const updateWork = () => {
-        if (newData.name===work.name){
+        if (newData.name===work.name ||newData.name===""||newData.name===" "){
             alert("Ви не вказали роботу! Спробуйте ще раз.");
             return 0;
         }
