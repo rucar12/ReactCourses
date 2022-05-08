@@ -1,0 +1,25 @@
+.title{
+    padding-top: 5%;
+    font-size: 5vh;
+    color: #282c34;
+}
+
+.container{
+    padding-top: 15%;
+}
+
+.button{
+    padding: 2vh 2vw;
+    margin: 0vw 2vw;
+    background-color: darkseagreen;
+    color: #282c34;
+    font-size: 3vh;
+    border: #282c34 2px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button:hover{
+    box-shadow: 5px 7px 5px;
+    transition: 0.4s;
+}
