@@ -5,7 +5,8 @@
   justify-content: center;
 }
 body {
-  background-color: #cbcbf3;
+  background: linear-gradient(45deg, #eeaf33aa, #faed32);
+  min-height: 95vh;
 }
 .title h1 {
   color: #3a3a3a;
