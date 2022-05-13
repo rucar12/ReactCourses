@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfb78a4-e7a8-4a63-9a70-b70ba349e1ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AddTodo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddTodo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firestore.rules" beforeDir="false" afterPath="$PROJECT_DIR$/firestore.rules" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +24,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../second/todo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\WebStorm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ReactCourses\TaskSet9New" />
       <recent name="C:\projs\todo_firebase\src\components\Todo" />
       <recent name="C:\projs\todo_firebase\src\components\Title" />
       <recent name="C:\projs\todo_firebase\src\components\AddTodo" />
@@ -53,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652377035254</updated>
       <workItem from="1652377037965" duration="21179000" />
+      <workItem from="1652427542821" duration="3292000" />
     </task>
     <servers />
   </component>
